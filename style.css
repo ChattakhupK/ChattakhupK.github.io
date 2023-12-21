@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-item {
+/* border: 1px solid red; */
+padding: 20px 70px;
+background-color: #1f3c5c;
+display: flex;
+justify-content: end;
+position: fixed;
+left: 0;
+top: 0;
+right: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    font-weight: bold;
+    display: inline;
+    margin: 0px 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 720px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://img.freepik.com/free-photo/flat-lay-health-still-life-arrangement-with-copy-space_23-2148854064.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1703030400&semt=sph);
+}
+
+.box {
+    display: flex;
+    width: 700px;
+    height: 500px;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+    /* border: 1px solid red; */
+    padding: 50px;
+}
+h2{
+    font-size: 45px;
+}
+
+.btn {
+    margin-top: 15px;
+    display: inline-block;
+    background-color: rgb(16, 16, 16);
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0px 1px 1px 1px black;
+}
+
+.btn:hover {
+    background-color: black;
+    box-shadow: 0px 1px 10px 1px black;
+}
+
+.p-h2 {
+    font-size: 21px;
+}
+
+.bmi {
+    height: 1600px;
+    background-color: #2a4661;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    font-size: 25px;
+    padding: 5px;
+}
+
+.box-bmi{
+    /* border: red solid 1px; */
+    background-image: url(https://img.freepik.com/free-vector/healthcare-background-with-medical-symbols-hexagonal-frame_1017-26363.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1703030400&semt=sph);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 800px;
+    padding: 100px;
+    text-align: center;
+}
+
+.box-cal-bmi{
+    background-color: rgba(162, 169, 255, 0.362);
+    border: none;
+    padding: 20px 10px;
+    border-radius: 20px;
+    box-shadow: 0px 1px 1px 1px rgba(0, 0, 0, 0);
+}
+
+.btn-bmi {
+    margin-top: 15px;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    padding: 5px 40px;
+    border-radius: 0px;
+    box-shadow: 0px 1px 1px 1px black;
+}
+
+.btn-bmi:active {
+    margin-top: 15px;
+    display: inline-block;
+    background-color: rgb(198, 198, 198);
+    border: none;
+    padding: 5px 40px;
+    border-radius: 0px;
+    box-shadow: 0px 1px 1px 1px rgb(28, 28, 28);
+}
+
+.output-bmi{
+    background-color: white;
+    padding: 5px;
+}
+
+.output-text{
+    display: block;
+    font-weight: 60;
+    font-size: 18px;
+}
+
+.result-bmi{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+h4{
+    font-size: 20px;
+}
+
+.box-re{
+    background-color: #f4ebde;
+    padding: 30px 10px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 10px 1px rgba(0, 0, 0, 0);
+}
+
+.about{
+    height: 600px;
+    background-color: #436894;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-a1{
+    padding: 50px;
+}
+
+.footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+}
